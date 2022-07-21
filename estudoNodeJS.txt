@@ -1,0 +1,19 @@
+/**
+ * GET      ==> Look for information
+ * POST     ==> Enter information
+ * PUT      ==> Change information
+ * DELETE   ==> Delete information
+ * PATCH    ==> Change specific information
+ */
+
+/**
+ * Tipos de Parâmetros
+ * Routes Params   ==> http://localhost:3000/produtos/657698
+ * Query Params    ==> http://localhost:3000/produtos?name=teclado&description=tecladonovo
+ * 
+ * 
+ * Body Params     ==> {
+ * "name": "teclado",
+ * "description": "teclado bom"
+ * }
+ */
