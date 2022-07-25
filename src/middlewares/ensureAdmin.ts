@@ -1,12 +1,16 @@
 import {Request, Response, NextFunction} from "express"
 
 
-
 export function ensureAdmin(request: Request, response: Response, next: NextFunction){
 
-    const admin = true;
+    const { user_id } = request;
+
+    console.log(user_id);
+   
 
     //Verifica se o usuário é admin
+    const admin = true;
+
     if(admin){
         return next();
     }
